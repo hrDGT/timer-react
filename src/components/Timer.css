@@ -1,0 +1,30 @@
+.timer {
+    height: 100px;
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.timer__time {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer__item {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.timer__item > input {
+    font-size: 36px;
+    text-align: center;
+}
+
+.timer__buttons {
+    display: flex;
+    justify-content: space-between;
+}
